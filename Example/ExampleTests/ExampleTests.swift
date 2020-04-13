@@ -1,15 +1,15 @@
 //
-//  CleanerKitTests.swift
-//  CleanerKitTests
+//  ExampleTests.swift
+//  ExampleTests
 //
-//  Created by PFXStudio on 2020/04/13.
+//  Created by PFXStudio on 2020/04/12.
 //  Copyright © 2020 PFXStudio. All rights reserved.
 //
 
 import XCTest
-@testable import CleanerKit
+@testable import Example
 
-class CleanerKitTests: XCTestCase {
+class ExampleTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
