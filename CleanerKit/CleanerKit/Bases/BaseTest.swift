@@ -25,7 +25,7 @@ open class BaseTest {
         print("mmm...m.m.m.m.m.")
         print("mmm...m.m.m.m.m.")
         print(String.random())
-        let viewModel = BaseViewModel()
+        let viewModel = RxViewModel()
         print(viewModel.disposeBag)
         self.relay.accept(3)
     }

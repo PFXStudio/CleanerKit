@@ -16,14 +16,11 @@ protocol ConfigurableTableViewCellProtocol where Self: UITableViewCell {
 
 typealias ConfigurableTableViewCell = UITableViewCell & ConfigurableTableViewCellProtocol
 
-class BaseTableViewCell: ConfigurableTableViewCell {
-
-    var disposeBag = DisposeBag()
-
+class RxTableViewCell: ConfigurableTableViewCell {
+    private var disposeBag = DisposeBag()
     func configure(viewModel: BaseCellViewModel) {}
-
     override func prepareForReuse() {
         super.prepareForReuse()
-        disposeBag = DisposeBag()
+        self.disposeBag = DisposeBag()
     }
 }

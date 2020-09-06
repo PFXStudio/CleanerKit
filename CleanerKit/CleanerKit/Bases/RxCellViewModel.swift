@@ -1,15 +1,15 @@
 //
 //  BaseCellViewModel.swift
-//  PFXPixabay
+//  CleanerKit
 //
-//  Created by succorer on 2020/02/19.
-//  Copyright © 2020 pfxstudio. All rights reserved.
+//  Created by PFXStudio on 2020/02/19.
+//  Copyright © 2020 PFXStudio. All rights reserved.
 //
 
 import Foundation
 import RxDataSources
 
-public class BaseCellViewModel: IdentifiableType, Equatable {
+public class RxCellViewModel: IdentifiableType, Equatable {
 
     let reuseIdentifier: String
     let identifier: String
@@ -29,7 +29,7 @@ public class BaseCellViewModel: IdentifiableType, Equatable {
 
     // MARK: - Equatable
 
-    public static func == (lhs: BaseCellViewModel, rhs: BaseCellViewModel) -> Bool {
+    public static func == (lhs: RxCellViewModel, rhs: RxCellViewModel) -> Bool {
         return lhs.identifier == rhs.identifier
     }
 

@@ -1,9 +1,9 @@
 //
 //  BaseCell.swift
-//  PFXPixabay
+//  CleanerKit
 //
-//  Created by succorer on 2020/02/19.
-//  Copyright © 2020 pfxstudio. All rights reserved.
+//  Created by PFXStudio on 2020/02/19.
+//  Copyright © 2020 PFXStudio. All rights reserved.
 //
 
 import Foundation
@@ -17,13 +17,11 @@ protocol Configurable where Self: UICollectionViewCell {
 typealias ConfigurableCell = UICollectionViewCell & Configurable
 
 class BaseCollectionViewCell: ConfigurableCell {
-
-    var disposeBag = DisposeBag()
+    private var disposeBag = DisposeBag()
 
     func configure(viewModel: BaseCellViewModel) {}
-
     override func prepareForReuse() {
         super.prepareForReuse()
-        disposeBag = DisposeBag()
+        self.disposeBag = DisposeBag()
     }
 }
