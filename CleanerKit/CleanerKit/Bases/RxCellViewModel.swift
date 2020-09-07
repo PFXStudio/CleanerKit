@@ -1,5 +1,5 @@
 //
-//  BaseCellViewModel.swift
+//  RxCellViewModel.swift
 //  CleanerKit
 //
 //  Created by PFXStudio on 2020/02/19.

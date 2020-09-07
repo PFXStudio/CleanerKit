@@ -21,6 +21,16 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		6D0D44082506552A005CD0DE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D679D0A250651610009AA20 /* Alamofire.framework */; };
+		6D0D44092506552D005CD0DE /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC753E924449A5F0094A1EB /* RxDataSources.framework */; };
+		6D0D440C25065636005CD0DE /* CacheHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D440B25065636005CD0DE /* CacheHelper.swift */; };
+		6D0D440E2506567D005CD0DE /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D440D2506567D005CD0DE /* CoreDataHelper.swift */; };
+		6D0D4410250657C8005CD0DE /* RxInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D440F250657C8005CD0DE /* RxInteractor.swift */; };
+		6D679D0B250651610009AA20 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D679D0A250651610009AA20 /* Alamofire.framework */; };
+		6DBE2ADE25064A9200B1DD20 /* RxInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE2ADD25064A9200B1DD20 /* RxInteractorProtocol.swift */; };
+		6DBE2AE025064AF600B1DD20 /* ClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE2ADF25064AF600B1DD20 /* ClientProtocol.swift */; };
+		6DBE2AE225064C7B00B1DD20 /* ConstEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE2AE125064C7B00B1DD20 /* ConstEnums.swift */; };
+		6DBE2AE42506502B00B1DD20 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE2AE32506502B00B1DD20 /* RestClient.swift */; };
 		6DC753A4244490F10094A1EB /* CleanerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC7539A244490F10094A1EB /* CleanerKit.framework */; };
 		6DC753A9244490F10094A1EB /* CleanerKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC753A8244490F10094A1EB /* CleanerKitTests.swift */; };
 		6DC753AB244490F10094A1EB /* CleanerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC7539D244490F10094A1EB /* CleanerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -51,7 +61,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6D679D0D250651610009AA20 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6D0D440B25065636005CD0DE /* CacheHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheHelper.swift; sourceTree = "<group>"; };
+		6D0D440D2506567D005CD0DE /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		6D0D440F250657C8005CD0DE /* RxInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxInteractor.swift; sourceTree = "<group>"; };
+		6D679D0A250651610009AA20 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		6DBE2ADD25064A9200B1DD20 /* RxInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxInteractorProtocol.swift; sourceTree = "<group>"; };
+		6DBE2ADF25064AF600B1DD20 /* ClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientProtocol.swift; sourceTree = "<group>"; };
+		6DBE2AE125064C7B00B1DD20 /* ConstEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstEnums.swift; sourceTree = "<group>"; };
+		6DBE2AE32506502B00B1DD20 /* RestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
 		6DC7539A244490F10094A1EB /* CleanerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CleanerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC7539D244490F10094A1EB /* CleanerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CleanerKit.h; sourceTree = "<group>"; };
 		6DC7539E244490F10094A1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +112,7 @@
 				6DC753EA24449A5F0094A1EB /* RxDataSources.framework in Frameworks */,
 				6DC753BD244493F90094A1EB /* RxRelay.framework in Frameworks */,
 				6DC753BB244493F90094A1EB /* RxSwift.framework in Frameworks */,
+				6D679D0B250651610009AA20 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,13 +122,41 @@
 			files = (
 				6DC753BC244493F90094A1EB /* RxSwift.framework in Frameworks */,
 				6DC753A4244490F10094A1EB /* CleanerKit.framework in Frameworks */,
+				6D0D44092506552D005CD0DE /* RxDataSources.framework in Frameworks */,
 				6DC753BE244493F90094A1EB /* RxRelay.framework in Frameworks */,
+				6D0D44082506552A005CD0DE /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D0D440A25065625005CD0DE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6D0D440B25065636005CD0DE /* CacheHelper.swift */,
+				6D0D440D2506567D005CD0DE /* CoreDataHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6D349C8D25065A950085F13D /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE2ADF25064AF600B1DD20 /* ClientProtocol.swift */,
+				6DBE2AE32506502B00B1DD20 /* RestClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		6D349C8E25065C700085F13D /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE2AE125064C7B00B1DD20 /* ConstEnums.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
 		6DC75390244490F10094A1EB = {
 			isa = PBXGroup;
 			children = (
@@ -121,7 +181,10 @@
 			children = (
 				6DC753D5244498400094A1EB /* Bases */,
 				6DC7539D244490F10094A1EB /* CleanerKit.h */,
+				6D349C8D25065A950085F13D /* Clients */,
+				6D349C8E25065C700085F13D /* Commons */,
 				6DC753E6244499AF0094A1EB /* Extensions */,
+				6D0D440A25065625005CD0DE /* Helpers */,
 				6DC7539E244490F10094A1EB /* Info.plist */,
 			);
 			path = CleanerKit;
@@ -139,6 +202,7 @@
 		6DC753B7244491910094A1EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6D679D0A250651610009AA20 /* Alamofire.framework */,
 				6DC753E924449A5F0094A1EB /* RxDataSources.framework */,
 				6DC753BA244493F90094A1EB /* RxRelay.framework */,
 				6DC753B9244493F90094A1EB /* RxSwift.framework */,
@@ -153,11 +217,13 @@
 				6DC753DC244498400094A1EB /* ImpactProtocol.swift */,
 				6DC753DD244498400094A1EB /* RxCellViewModel.swift */,
 				6DC753D9244498400094A1EB /* RxCollectionViewCell.swift */,
+				6DBE2ADD25064A9200B1DD20 /* RxInteractorProtocol.swift */,
 				6DC753DB244498400094A1EB /* RxSectionCollectionViewModel.swift */,
 				6DC753DA244498400094A1EB /* RxSectionTableViewModel.swift */,
 				6DC753D7244498400094A1EB /* RxTableViewCell.swift */,
 				6DC753D6244498400094A1EB /* RxViewController.swift */,
 				6DC753D8244498400094A1EB /* RxViewModel.swift */,
+				6D0D440F250657C8005CD0DE /* RxInteractor.swift */,
 			);
 			path = Bases;
 			sourceTree = "<group>";
@@ -192,6 +258,7 @@
 				6DC75396244490F10094A1EB /* Sources */,
 				6DC75397244490F10094A1EB /* Frameworks */,
 				6DC75398244490F10094A1EB /* Resources */,
+				6D679D0D250651610009AA20 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -304,6 +371,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DBE2AE025064AF600B1DD20 /* ClientProtocol.swift in Sources */,
+				6D0D440C25065636005CD0DE /* CacheHelper.swift in Sources */,
+				6D0D440E2506567D005CD0DE /* CoreDataHelper.swift in Sources */,
 				6DC753E2244498400094A1EB /* RxSectionTableViewModel.swift in Sources */,
 				6DC753E5244498400094A1EB /* RxCellViewModel.swift in Sources */,
 				6DC753E1244498400094A1EB /* RxCollectionViewCell.swift in Sources */,
@@ -314,6 +384,10 @@
 				6DC753E4244498400094A1EB /* ImpactProtocol.swift in Sources */,
 				6DC753E8244499AF0094A1EB /* String+Extension.swift in Sources */,
 				6DC753E3244498400094A1EB /* RxSectionCollectionViewModel.swift in Sources */,
+				6DBE2ADE25064A9200B1DD20 /* RxInteractorProtocol.swift in Sources */,
+				6DBE2AE42506502B00B1DD20 /* RestClient.swift in Sources */,
+				6D0D4410250657C8005CD0DE /* RxInteractor.swift in Sources */,
+				6DBE2AE225064C7B00B1DD20 /* ConstEnums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,12 +533,17 @@
 		6DC753AF244490F10094A1EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -477,25 +556,34 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.CleanerKit;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nyon.CleanerKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64 arm64e armv7 armv7s i386 x86_64";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
 			};
 			name = Debug;
 		};
 		6DC753B0244490F10094A1EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -508,12 +596,16 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.CleanerKit;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nyon.CleanerKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64 arm64e armv7 armv7s i386 x86_64";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -564,7 +656,11 @@
 		6DC753C3244494A50094A1EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -572,7 +668,11 @@
 		6DC753C4244494A50094A1EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -19,7 +19,7 @@ protocol RxViewModelProtocol {
     func deinitialize()
 }
 
-class RxViewModel {
+class RxViewModel: DeinitializableProtocol {
     var disposeBag = DisposeBag()
     func deinitialize() {
         NotificationCenter.default.removeObserver(self)

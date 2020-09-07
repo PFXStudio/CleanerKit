@@ -8,6 +8,7 @@ target 'Example' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'RxDataSources'
+  pod 'Alamofire', '~> 4.5'
 
 
   target 'ExampleTests' do

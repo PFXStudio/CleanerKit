@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1140"
+   LastUpgradeVersion = "1160"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6DF2D42A243F1EB600C2B7C2"
+               BlueprintIdentifier = "6DC75399244490F10094A1EB"
                BuildableName = "CleanerKit.framework"
                BlueprintName = "CleanerKit"
                ReferencedContainer = "container:CleanerKit.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6DF2D433243F1EB600C2B7C2"
+               BlueprintIdentifier = "6DC753A2244490F10094A1EB"
                BuildableName = "CleanerKitTests.xctest"
                BlueprintName = "CleanerKitTests"
                ReferencedContainer = "container:CleanerKit.xcodeproj">
@@ -60,7 +60,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6DF2D42A243F1EB600C2B7C2"
+            BlueprintIdentifier = "6DC75399244490F10094A1EB"
             BuildableName = "CleanerKit.framework"
             BlueprintName = "CleanerKit"
             ReferencedContainer = "container:CleanerKit.xcodeproj">

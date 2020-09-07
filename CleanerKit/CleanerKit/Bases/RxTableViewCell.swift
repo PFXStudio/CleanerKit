@@ -11,14 +11,14 @@ import UIKit
 import RxSwift
 
 protocol ConfigurableTableViewCellProtocol where Self: UITableViewCell {
-    func configure(viewModel: BaseCellViewModel)
+    func configure(viewModel: RxCellViewModel)
 }
 
 typealias ConfigurableTableViewCell = UITableViewCell & ConfigurableTableViewCellProtocol
 
 class RxTableViewCell: ConfigurableTableViewCell {
     private var disposeBag = DisposeBag()
-    func configure(viewModel: BaseCellViewModel) {}
+    func configure(viewModel: RxCellViewModel) {}
     override func prepareForReuse() {
         super.prepareForReuse()
         self.disposeBag = DisposeBag()

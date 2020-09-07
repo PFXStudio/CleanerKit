@@ -11,7 +11,7 @@ import UIKit
 import RxSwift
 
 protocol Configurable where Self: UICollectionViewCell {
-    func configure(viewModel: BaseCellViewModel)
+    func configure(viewModel: RxCellViewModel)
 }
 
 typealias ConfigurableCell = UICollectionViewCell & Configurable
@@ -19,7 +19,7 @@ typealias ConfigurableCell = UICollectionViewCell & Configurable
 class BaseCollectionViewCell: ConfigurableCell {
     private var disposeBag = DisposeBag()
 
-    func configure(viewModel: BaseCellViewModel) {}
+    func configure(viewModel: RxCellViewModel) {}
     override func prepareForReuse() {
         super.prepareForReuse()
         self.disposeBag = DisposeBag()
